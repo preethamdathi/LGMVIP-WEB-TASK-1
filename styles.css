@@ -1,0 +1,36 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: bold;
+}
+.row{
+    color: black;
+}
+
+body {
+	background:#03dfff;
+    background:linear-gradient(120deg ,red 0%,yellow 90%)
+}
+
+h1{
+	text-align: center;
+	margin: 5%;
+	font-size: 3rem;
+	text-decoration: underline;
+}
+
+ul {
+	text-align: left;
+	padding-left: 10%;
+	padding: 7%;
+	font-size: 2rem;
+	list-style: circle;
+}
+
+li:hover{
+	color:yellow;
+	margin: 4%;
+	transition: 1.5s ease;
+	cursor: pointer;
+}
